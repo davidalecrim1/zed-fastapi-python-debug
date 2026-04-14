@@ -1,5 +1,17 @@
 [
   {
+    "label": "Python Debugger: Pytest",
+    "adapter": "Debugpy",
+    "request": "launch",
+    "module": "pytest",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "python": "${ZED_WORKTREE_ROOT}/.venv/bin/python",
+    "justMyCode": true,
+    "env": {
+      "MY_VARIABLE": "abcd",
+    },
+  },
+  {
     "label": "Python Debugger: FastAPI",
     "adapter": "Debugpy",
     "request": "launch",
